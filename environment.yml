@@ -6,6 +6,7 @@ dask[complete]
 flake8
 gdal
 isort
+ipython
 netcdf4
 numpy
 pandas
@@ -13,6 +14,7 @@ pytest
 pytest-cov
 pytest-xdist
 scikit-learn
+sphinx
 statsmodels
 regionmask
 xarray<=0.18.0

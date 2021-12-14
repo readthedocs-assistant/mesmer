@@ -49,6 +49,11 @@ REQUIREMENTS_TESTS = [
     "pytest-cov",
     "pytest-xdist",
 ]
+REQUIREMENTS_DOCS = [
+    "sphinx",
+    "sphinx-book-theme",
+    "numpydoc",
+]
 REQUIREMENTS_DEV = [
     "black",
     "flake8",
@@ -57,11 +62,7 @@ REQUIREMENTS_DEV = [
     "twine",
     "wheel",
     *REQUIREMENTS_TESTS,
-]
-
-REQUIREMENTS_DOCS = [
-    "sphinx-book-theme",
-    "numpydoc",
+    *REQUIREMENTS_DOCS,
 ]
 
 REQUIREMENTS_EXTRAS = {
